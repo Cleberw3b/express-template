@@ -1,0 +1,5 @@
+{
+    "ignore": ["**/*.test.*", "**/*.spec.*", ".git", "node_modules"],
+    "watch": ["src"],
+    "exec": "node --inspect -r dotenv/config --experimental-modules ./src/server.js"
+}
